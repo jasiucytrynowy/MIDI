@@ -40,12 +40,16 @@ void loop()
   
   if(BTN_A == 1){
     MIDI.sendNoteOn(42,127,1);
+    delay(50);
   } else if(BTN_B == 1){
     MIDI.sendNoteOn(54,127,1);
+    delay(50);
   } else if(BTN_C == 1){
     MIDI.sendNoteOn(68,127,1);
+    delay(50);
   } else if(BTN_D == 1){
     MIDI.sendNoteOn(82,127,1);
+    delay(50);
   }
   delay(5);
 }
